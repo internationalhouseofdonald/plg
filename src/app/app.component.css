@@ -1,0 +1,68 @@
+/*
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+button {
+  cursor: pointer;
+}
+#hero-title {
+  font-size: 4pc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* TODO: Make this responsive */
+}
+.navbar {
+  width:100%;
+  background:none !important;
+}
+.jumbotron {
+  background: none !important;
+}
+.navbar-toggler {
+  cursor:pointer;
+}
+.nav-link {
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.nav-link:hover {
+  opacity: .6;
+}
+#card-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  #hero-title {
+    font-size: 5pc;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+ 
+}
+

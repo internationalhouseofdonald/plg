@@ -16,7 +16,8 @@ button {
   background:none !important;
 }
 .jumbotron {
-  background: none !important;
+  /*background: none !important;*/
+  background-color: pink;
 }
 .navbar-toggler {
   cursor:pointer;
